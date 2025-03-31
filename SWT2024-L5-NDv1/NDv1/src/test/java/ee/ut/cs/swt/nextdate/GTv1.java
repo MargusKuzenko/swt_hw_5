@@ -9,7 +9,7 @@ public class GTv1 {
 	public void testCreatesNextDateAndCallsRun() throws Throwable {
 	    NextDate nextDate0 = new NextDate((-1529), (-1529), (-1529));
 	    String string0 = nextDate0.run(12, 31, 2013);
-	    assertEquals("12/32/2013", string0);
+	    assertEquals("1/1/2014", string0);
 	}
 
 	@Test(timeout = 4000)
@@ -58,7 +58,7 @@ public class GTv1 {
 	public void testRunReturningNonEmptyString() throws Throwable {
 	    NextDate nextDate0 = new NextDate((-1529), (-1529), (-1529));
 	    String string0 = nextDate0.run(12, 31, 2013);
-	    assertEquals("12/32/2013", string0);
+	    assertEquals("1/1/2014", string0);
 	}
 
 	@Test(timeout = 4000)
